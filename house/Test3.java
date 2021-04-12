@@ -1,6 +1,9 @@
 package house;
 
-public class Test3 extends Thread {
+import java.util.ArrayList;
+
+public class Test3 implements Runnable {
+    // Runnable 인터페이스: run 메소드를 구현하도록 강제한다. 
     int seq;
     public Test3(int seq) {
         this.seq = seq;
@@ -17,9 +20,20 @@ public class Test3 extends Thread {
     }
 
     public static void main(String[] args) {
+        ArrayList<Thread> threads = new ArrayList<Thread>();
         for (int i = 0; i < 10; i++) {
-            Thread t = new Test3(i);
+            Thread t = new Thread(new Test3(i));
             t.start();
+            threads.add(t);
+        }
+
+        for (int i = 0; i<threads.size(); i++) {
+            Thread t = threads.get(i);
+            try {
+                t.join();
+            } catch (Exception e) {
+
+            }
         }
         System.out.println("main end."); 
         
