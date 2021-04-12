@@ -1,3 +1,5 @@
+package house;
+
 public class Test {
     public void shouldBeRun() {
         System.out.println("ok thank.");

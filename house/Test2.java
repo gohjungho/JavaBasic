@@ -1,3 +1,5 @@
+package house;
+
 public class Test2 {
     public void sayNick(String nick) throws FoolException {
 

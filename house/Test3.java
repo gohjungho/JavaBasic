@@ -1,3 +1,5 @@
+package house;
+
 public class Test3 extends Thread {
     int seq;
     public Test3(int seq) {
