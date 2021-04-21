@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CardTest",
+            "request": "launch",
+            "mainClass": "CardTest",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch TvTest",
+            "request": "launch",
+            "mainClass": "TvTest",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx15",
+            "request": "launch",
+            "mainClass": "ArrayEx15",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx14",
+            "request": "launch",
+            "mainClass": "ArrayEx14",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx12",
+            "request": "launch",
+            "mainClass": "ArrayEx12",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx4",
+            "request": "launch",
+            "mainClass": "ArrayEx4",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx3",
+            "request": "launch",
+            "mainClass": "ArrayEx3",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx2",
+            "request": "launch",
+            "mainClass": "ArrayEx2",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEx1",
+            "request": "launch",
+            "mainClass": "ArrayEx1",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx34",
+            "request": "launch",
+            "mainClass": "FlowEx34",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEx33",
+            "request": "launch",
+            "mainClass": "FlowEx33",
+            "projectName": "JavaPractice_e4a94d45"
+        },
+        {
+            "type": "java",
             "name": "Launch FlowEx22",
             "request": "launch",
             "mainClass": "FlowEx22",
