@@ -6,9 +6,9 @@ class FlowEx33 {
                 if(j == 5)
                     break Loop1;
                     break;
-                    continue Loop1;
-                    continue;
-                System.out.println(i + "*" + j + "=" + i * j);
+                    // continue Loop1;
+                    // continue;
+                // System.out.println(i + "*" + j + "=" + i * j);
             } // end of for i 
             System.out.println();
         } // end of Loop1 
