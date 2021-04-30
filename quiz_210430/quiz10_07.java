@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class quiz10_07 {
     // 유틸리티 클래스 만들기. 메서드 오버로딩
     public static int min(int a, int b) {
@@ -51,7 +53,8 @@ public class quiz10_07 {
     public static int min(int[] a) {
         int min = a[0];
         for (int i = 1; i < a.length; i++) {
-            if (a[i] < min) min = a[i];
+            if (a[i] < min)
+                min = a[i];
         }
         return min;
     }
@@ -59,23 +62,24 @@ public class quiz10_07 {
     public static int max(int[] a) {
         int max = a[0];
         for (int i = 1; i < a.length; i++) {
-            if (a[i] > max) max = a[i];
+            if (a[i] > max)
+                max = a[i];
         }
         return max;
     }
 
-    // 배열에서 최소값을 가지는 모든 요소의 인덱스를 저장한 배열 구하기 
+    // 배열에서 최소값을 가지는 모든 요소의 인덱스를 저장한 배열 구하기
     public static int[] minIndexArr(int[] a) {
         int min = min(a);
         int count = 0;
         for (int i = 0; i < a.length; i++) {
-            if(a[i] == min)
-                count++; 
+            if (a[i] == min)
+                count++;
         }
         int[] c = new int[count--];
         for (int i = a.length - 1; count >= 0; i--) {
-            if (a[i] == min) 
-                c[count--] = i;   
+            if (a[i] == min)
+                c[count--] = i;
         }
         return c;
     }
@@ -110,7 +114,7 @@ public class quiz10_07 {
         System.out.print("인덱스는 {");
         for (int i = 0; i < xmin.length; i++) {
             System.out.print(xmin[i] + " ");
-        } 
+        }
         System.out.println("} 입니다.");
     }
 }
